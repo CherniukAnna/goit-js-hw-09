@@ -53,9 +53,9 @@ const options = {
 refs.start.setAttribute('disabled', '');
 refs.backEl.style = `color:#D2B48C`;
 refs.bodyEl.style = `background-color: #FFEFD5`;
-refs.input.style = `border-radius: 50%;color: #BC8F8F;box-shadow: inset 0 3px 4px #ffffff, inset 0 -3px 4px #c4b59d;width: 188px;
-  height: 48px;`;
-refs.start.style = `border-radius: 50%;color: #BC8F8F;box-shadow: inset 0 3px 4px #ffffff, inset 0 -3px 4px #c4b59d;width: 68px;
+refs.input.style = `color: #BC8F8F;border:0px;box-shadow: inset 0 3px 4px #ffffff, inset 0 3px 4px #c4b59d;width: 188px;
+  height: 30px;`;
+refs.start.style = `border:1px;border-radius: 50%;color: #BC8F8F;box-shadow: inset 0 3px 4px #ffffff, inset 0 -3px 4px #c4b59d;width: 68px;
   height: 38px;`;
 refs.timerEl.style = `display: flex;  justify-content: center; gap: 30px; margin-top: 50px;text-shadow: 1px 2px 3px #000`;
 refs.textEl.forEach(
