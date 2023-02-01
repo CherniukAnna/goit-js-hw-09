@@ -2,8 +2,9 @@ import Notiflix from 'notiflix';
 
 const refs = {
   form: document.querySelector('.form'),
+  body:document.querySelector('body')
 };
-
+refs.body.style = `background-color: #FFEFD5`;
 refs.form.addEventListener('submit', onFormSubmit);
 
 function onFormSubmit(e) {
